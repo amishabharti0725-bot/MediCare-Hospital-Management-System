@@ -1,48 +1,53 @@
-# MediCare: Automated Patient Record & Appointment Management System
-hospital-management-system
+# MediCare: Hospital Management System
 
-MediCare: Automated Patient Record & Appointment Management System
+## Project Overview
 
-Welcome to the development repository for the MediCare Hospital Management System. This project is developed as part of the Python Programming course evaluation.
+MediCare is a Python-based Hospital Management System designed to organize basic patient information and make simple hospital tasks easier through a menu-driven interface.
 
-👥 Group Member
+## Objectives
 
-Ishita Sahu (Roll Number: S26CSEU1631 )
-Amisha Bharti (Roll Number: S26CSEU1648)
-📅 Project Milestones
+* Register new patients.
+* View registered patient records.
+* Display basic patient information in an organized way.
+* Practice Python programming concepts through a real-world project.
 
-Milestone 1: 30 September 2026 (Project Proposal & Initial Planning) - Completed
-Milestone 2: 30 November 2026 (Final Implementation & Code Submission) - In Progress
-🏥 Project Overview
+## Features
 
-MediCare is an automated, terminal-based desktop application designed to transition medical records from physical paperwork to an integrated digital framework. It handles core administrative hospital operations using clean, modular Python scripting.
+* Patient registration
+* Display all registered patients
+* Menu-driven program
+* Basic input validation
+* Organized patient records using Python lists and tuples
 
-🌟 Key Features
+## Technologies Used
 
-Patient Directory: Full capability to add, view, update, and manage unique patient profiles and demographic data.
-Doctor Database: Categorized management of medical staff and availability grouped by specialization.
-Smart Appointment Booking: A validated scheduling engine that prevents double-booking or overlapping time slots for doctors.
-Persistent Storage: Local file handling using file systems to maintain medical data securely across application restarts.
-🛠️ Core Python Concepts Used
+* **Programming Language:** Python 3
+* **Concepts:** Variables, strings, lists, tuples, loops, and conditional statements
+* **Platform:** GitHub
 
-Data Structures: Dictionaries and Nested Lists for real-time memory management.
-Control Flow: Conditional branching loops for dashboard navigation and access validation.
-Modular Functions: Structured programming blocks to cleanly separate administrative actions.
-File Operations: Built-in file I/O operations to read and write database text logs continuously.
-🏗️ System Architecture & Workflow
+## Project Structure
 
-1. Patient Management Module
+* `main.py` — Main program and menu.
+* `patient.py` — Functions for registering and displaying patients.
+* `README.md` — Project description and instructions.
 
-Assigns a unique, system-generated Patient ID upon new registration.
-Stores names, ages, contact configurations, and active medical histories.
-2. Appointment Booking Module
+## How to Run
 
-Fetches the selected doctor's schedule directory.
-Verifies time availability before confirming the booking ledger.
-3. File Storage System
+1. Install Python 3.
+2. Download or clone this repository.
+3. Open a terminal in the project folder.
+4. Run the command:
 
-Automatically backups system changes into structured local text databases upon exiting the application shell environment.
+   ```bash
+   python3 main.py
+   ```
 
+## Team Members
 
+* Amisha Bharti
+* Ishita Sahu
 
+## Project Status
+
+The project is currently under development. More hospital management features may be added in future versions.
 
