@@ -1,24 +1,16 @@
+from flask import Flask
 
-from patient import register_patient, display_patients
+app = Flask(__name__)
 
-print("Welcome to MediCare Hospital")
+@app.route("/")
+def home():
+    return """
+    <h1>Welcome to MediCare</h1>
+    <h2>Hospital Management System</h2>
+    <p>Our project aims to make patient record
+    management easier.</p>
+    <p>More features will be added soon.</p>
+    """
 
-while True:
-    print("\n1. Register Patient")
-    print("2. Display Patients")
-    print("3. Exit")
-
-    choice = input("Enter your choice: ")
-
-    if choice == "1":
-        register_patient()
-
-    elif choice == "2":
-        display_patients()
-
-    elif choice == "3":
-        print("Thank you for using MediCare!")
-        break
-
-    else:
-        print("Invalid choice. Try again.")
+if __name__ == "__main__":
+    app.run(debug=True)
